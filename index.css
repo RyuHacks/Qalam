@@ -39,6 +39,10 @@
   .u-section-1 .u-sheet-1 {
     min-height: 611px;
   }
+
+  .u-section-1 .u-text-1 {
+    font-size: 1.25rem;
+  }
 }
 
 @media (max-width: 991px) {
@@ -382,6 +386,7 @@
   letter-spacing: 1px;
   font-weight: 700;
   width: 777px;
+  font-size: 3rem;
   margin: 72px auto 0;
 }
 
@@ -394,12 +399,6 @@
   background-image: none;
   margin: 145px auto 60px;
   padding: 7px 22px;
-}
-
-@media (max-width: 1199px) {
-  .u-section-5 .u-text-1 {
-    font-size: 3rem;
-  }
 }
 
 @media (max-width: 991px) {

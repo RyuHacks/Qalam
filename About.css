@@ -51,49 +51,49 @@
     width: 340px;
   }
 }.u-section-2 .u-sheet-1 {
-  min-height: 418px;
+  min-height: 522px;
 }
 
 .u-section-2 .u-text-1 {
   font-weight: 700;
-  margin: 60px auto 0 80px;
+  margin: 60px auto 0 48px;
 }
 
 .u-section-2 .u-image-1 {
   width: 499px;
   height: 333px;
-  margin: -52px 28px 0 auto;
+  margin: 25px 28px 0 auto;
 }
 
 .u-section-2 .u-text-2 {
   font-weight: 500;
   font-size: 1.25rem;
-  margin: -256px 570px 24px 79px;
+  margin: -333px 570px 0 48px;
 }
 
 @media (max-width: 1199px) {
   .u-section-2 .u-text-2 {
-    margin-right: 449px;
+    margin-right: 418px;
     margin-left: 0;
   }
 }
 
 @media (max-width: 991px) {
   .u-section-2 .u-text-2 {
-    margin-right: 229px;
+    margin-right: 198px;
   }
 }
 
 @media (max-width: 767px) {
   .u-section-2 .u-text-2 {
     font-size: 1rem;
-    margin-right: 49px;
+    margin-right: 18px;
   }
 }
 
 @media (max-width: 575px) {
   .u-section-2 .u-sheet-1 {
-    min-height: 312px;
+    min-height: 416px;
   }
 
   .u-section-2 .u-image-1 {
@@ -103,7 +103,7 @@
   }
 
   .u-section-2 .u-text-2 {
-    margin-top: -150px;
+    margin-top: -227px;
     margin-right: 0;
   }
 }.u-section-3 .u-sheet-1 {
@@ -222,29 +222,36 @@
     padding-right: 10px;
   }
 }.u-section-4 .u-sheet-1 {
-  min-height: 476px;
+  min-height: 425px;
 }
 
 .u-section-4 .u-text-1 {
   font-weight: 700;
-  margin: 50px auto 0;
+  margin: 96px auto 0;
 }
 
 .u-section-4 .u-text-2 {
   font-weight: 500;
   font-size: 1.25rem;
   width: 782px;
-  margin: 38px auto 60px;
+  margin: 48px auto 60px;
 }
 
 @media (max-width: 1199px) {
   .u-section-4 .u-text-1 {
     width: 299px;
   }
+
+  .u-section-4 .u-text-2 {
+    margin-left: 79px;
+    margin-right: 79px;
+  }
 }
 
 @media (max-width: 991px) {
   .u-section-4 .u-text-2 {
+    margin-left: 0;
+    margin-right: 0;
     width: 720px;
   }
 }
@@ -257,6 +264,12 @@
 }
 
 @media (max-width: 575px) {
+  .u-section-4 .u-text-1 {
+    margin-left: 21px;
+    margin-right: 21px;
+    width: auto;
+  }
+
   .u-section-4 .u-text-2 {
     width: 340px;
   }
