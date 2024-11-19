@@ -29,6 +29,10 @@
 }
 
 @media (max-width: 767px) {
+   .u-section-1 {
+    background-position: 50% 50%;
+  }
+
   .u-section-1 .u-sheet-1 {
     min-height: 169px;
   }
@@ -71,8 +75,9 @@
 .u-section-2 .u-image-1 {
   width: 233px;
   height: 233px;
-  background-image: url("images/justinedited.png");
-  background-position: 50% 50%;
+  background-image: url("images/justinnew.png");
+  background-position: 50% 14.94%;
+  background-size: cover;
   margin: 0 40px;
 }
 
@@ -113,8 +118,9 @@
 .u-section-2 .u-image-3 {
   width: 233px;
   height: 233px;
-  background-image: url("images/gamaledin2.png");
-  background-position: 50% 82.37%;
+  background-image: url("images/gamaledinnew1.png");
+  background-position: 50% 74.45%;
+  background-size: cover;
   margin: 0 40px;
 }
 
@@ -228,7 +234,7 @@
 .u-section-3 .u-image-2 {
   width: 233px;
   height: 233px;
-  background-image: url("images/justinedited.png");
+  background-image: url("images/justinnew.png");
   background-position: 50% 50%;
   margin: 0 40px;
 }
@@ -254,7 +260,7 @@
 .u-section-3 .u-image-3 {
   width: 233px;
   height: 233px;
-  background-image: url("images/gamaledin2.png");
+  background-image: url("images/gamaledinnew1.png");
   background-position: 50% 50%;
   margin: 0 40px;
 }
@@ -306,7 +312,7 @@
 .u-section-3 .u-image-5 {
   width: 233px;
   height: 233px;
-  background-image: url("images/justinedited1.png");
+  background-image: url("images/isamnew.png");
   background-position: 50% 50%;
   margin: 0 40px;
 }
@@ -370,7 +376,8 @@
   }
 
   .u-section-3 .u-image-2 {
-    background-position: 50% 45.7%;
+    background-position: 50% 0%;
+    background-size: cover;
     margin-left: auto;
     margin-right: auto;
   }
@@ -441,6 +448,24 @@
   .u-section-3 .u-repeater-1 {
     grid-auto-columns: 100%;
   }
+
+  .u-section-3 .u-image-3 {
+    background-position: 50% 50%;
+  }
+
+  .u-section-3 .u-image-4 {
+    background-position: 50% 50%;
+  }
+
+  .u-section-3 .u-image-5 {
+    background-position: 50% 64.19%;
+    background-size: cover;
+  }
+
+  .u-section-3 .u-image-6 {
+    background-position: 50% 29.35%;
+    background-size: cover;
+  }
 }.u-section-4 .u-sheet-1 {
   min-height: 545px;
 }
@@ -470,8 +495,9 @@
 .u-section-4 .u-image-1 {
   width: 245px;
   height: 245px;
-  background-image: url("images/justinedited1.png");
-  background-position: 50% 80.55%;
+  background-image: url("images/isamnew.png");
+  background-position: 50% 69.07%;
+  background-size: cover;
   margin: 0 25px;
 }
 
@@ -497,7 +523,8 @@
   width: 245px;
   height: 245px;
   background-image: url("images/gaoming1.jpg");
-  background-position: 10.16% 50%;
+  background-position: 0% 50%;
+  background-size: cover;
   margin: 0 25px;
 }
 
@@ -523,7 +550,8 @@
   width: 245px;
   height: 245px;
   background-image: url("images/myself1.png");
-  background-position: 50% 50%;
+  background-position: 50% 34.5%;
+  background-size: cover;
   margin: 0 25px;
 }
 
