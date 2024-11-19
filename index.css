@@ -164,7 +164,7 @@
 
 @media (max-width: 767px) {
   .u-section-2 .u-text-1 {
-    font-size: 1rem;
+    font-size: 1.875rem;
   }
 
   .u-section-2 .u-text-2 {
@@ -174,10 +174,6 @@
 }
 
 @media (max-width: 575px) {
-  .u-section-2 .u-text-1 {
-    font-size: 1.875rem;
-  }
-
   .u-section-2 .u-text-2 {
     width: 340px;
   }
