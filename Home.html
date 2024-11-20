@@ -12,7 +12,8 @@
     <meta name="generator" content="Nicepage 7.0.3, nicepage.com">
     <link rel="icon" href="images/favicon1.png">
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
-    <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i">
+    <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
+    
     
     
     
@@ -38,6 +39,116 @@
     <meta property="og:description" content="">
     <meta property="og:type" content="website">
   <meta data-intl-tel-input-cdn-path="intlTelInput/"></head>
+  <style>
+    /* Logo Ticker CSS */
+    @keyframes ticker-kf {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(-436%);
+      }
+    }
+
+    .img-ticker-wrap {
+      overflow: hidden;
+      width: 140%;
+	  margin-left: -20%;
+	  margin-top: 8rem;
+    }
+
+    .img-ticker {
+      display: flex;
+      animation: ticker-kf 54s linear infinite;
+	  align-items: center;
+    }
+	
+	.geotabb {
+	height: 50px;
+	margin: 0 2rem;
+	width: auto;
+	}
+
+    .tickerlogo {
+      flex: none;
+      margin: 0 2rem;
+      height: 100px;
+      width: auto;
+    }
+	
+    /* Logo Ticker CSS */
+    @keyframes ticker-kf2 {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(-436%);
+      }
+    }
+
+    .img-ticker-wrap2 {
+      overflow: hidden;
+      width: 140%;
+	  margin-left: -20%;
+	  margin-top: 3rem;
+	  margin-bottom: 1rem;
+    }
+
+    .img-ticker2 {
+      display: flex;
+      animation: ticker-kf2 54s linear infinite;
+	  align-items: center;
+    }
+	
+	.geotabb2 {
+	height: 25px;
+	margin: 0 1rem;
+	width: auto;
+	}
+
+    .tickerlogo2 {
+      flex: none;
+      margin: 0 1rem;
+      height: 50px;
+      width: auto;
+    }
+	
+    /* Scroll to Top Button Styles */
+    #scrollToTopButton {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: transparent;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      padding: 0;
+      width: 50px;
+      height: 50px;
+      z-index: 1000; /* Ensure it appears above other elements */
+    }
+    #scrollToTopButton svg {
+      overflow: visible;
+    }
+    /* Hide the button when at the top */
+    #scrollToTopButton.hidden {
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.3s;
+
+/* Original stroke color */
+#scrollToTopButton svg circle,
+#scrollToTopButton svg polyline {
+  stroke: grey; /* Original color */
+}
+
+/* Change color when overlapping the footer */
+#scrollToTopButton.overlap svg circle,
+#scrollToTopButton.overlap svg polyline {
+  stroke: white; /* Change to white when overlapping */
+}
+    }
+  </style>
   <body data-home-page="Home.html" data-home-page-title="Home" data-path-to-root="./" data-include-products="false" class="u-body u-xl-mode" data-lang="en"><header class="u-black u-border-2 u-border-no-left u-border-no-right u-border-no-top u-border-white u-clearfix u-header u-sticky u-sticky-df51 u-header" id="sec-991e"><div class="u-clearfix u-sheet u-sheet-1">
         <a href="./" class="u-align-left u-image u-logo u-image-1" data-image-width="983" data-image-height="983" title="Home">
           <img src="images/qalamlogonew.png" class="u-logo-image u-logo-image-1">
@@ -91,7 +202,7 @@ borders: top right bottom left !important
         <p class="u-align-center-sm u-align-center-xs u-align-left-lg u-align-left-md u-align-left-xl u-custom-font u-heading-font u-text u-text-default u-text-1">Who We Are</p>
         <p class="u-align-center u-custom-font u-font-roboto u-text u-text-2"> Qalam Consulting is a Brantford-based <span style="font-weight: 700;">non-profit</span> consulting firm dedicated to helping small and medium-sized businesses succeed. We strive to resolve the challenges our clients face through tailored solutions and market research.
         </p>
-        <a href="About.html" class="u-black u-border-2 u-border-black u-border-hover-black u-btn u-button-style u-custom-font u-font-montserrat u-hover-feature u-hover-white u-text-body-alt-color u-text-hover-black u-btn-1">ABOUT US </a>
+        <a href="About.html" class="u-black u-border-2 u-border-black u-border-hover-black u-btn u-button-style u-custom-font u-font-montserrat u-hover-feature u-hover-white u-none u-text-body-alt-color u-text-hover-black u-btn-1">ABOUT US </a>
       </div>
       
     </section>
@@ -174,6 +285,8 @@ borders: top right bottom left !important
         <p class="u-custom-font u-heading-font u-text u-text-default u-text-1">Our Consultants Work At</p>
       <div class="img-ticker-wrap">
         <div class="img-ticker">
+          <!-- Original set of images -->
+          <!-- (Images have been omitted for brevity) -->
           <!-- Original set of images -->
           <img class="tickerlogo" src="images/ironmountain.png" alt="Iron Mountain">
           <img class="tickerlogo" src="images/applelogo.png" alt="Apple">
@@ -341,8 +454,8 @@ borders: top right bottom left !important
           <img class="geotabb" src="images/geotab-logofull-colour-rgb.jpg" alt="Geotab">
           <img class="tickerlogo" src="images/mashreq.png" alt="Mashreq">
           <img class="tickerlogo" src="images/City-of-Brantford-Logo.jpg" alt="City of Brantford">
-          <img class="tickerlogo" src="images/torontohydrologo.png" alt="Toronto Hydro">
-		</div>
+          <img class="tickerlogo" src="images/torontohydrologo.png" alt="Toronto Hydro">	
+        </div>
       </div>
       </div>
     </section>
@@ -477,10 +590,21 @@ borders: top right bottom left !important
           <img class="tickerlogo2" src="images/mashreq.png" alt="Mashreq">
           <img class="tickerlogo2" src="images/City-of-Brantford-Logo.jpg" alt="City of Brantford">
           <img class="tickerlogo2" src="images/torontohydrologo.png" alt="Toronto Hydro">
-		</div>
+          <!-- (Images have been omitted for brevity) -->
+        </div>
       </div>
       </div>
     </section>
+	<style>
+	  .spinning-image {
+  animation: spin 200s linear infinite;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(10060deg); }
+}
+	</style>
     <section class="u-clearfix u-custom-color-5 u-section-6" id="sec-fe7d">
       <div class="u-clearfix u-sheet u-sheet-1">
         <h2 class="u-align-center u-text u-text-1">Our Services</h2>
@@ -508,7 +632,7 @@ borders: top right bottom left !important
         <div class="custom-expanded u-list u-list-1">
           <div class="u-repeater u-repeater-1">
             <div class="u-align-center u-container-align-center u-container-style u-list-item u-repeater-item u-white u-list-item-1">
-              <div class="u-container-layout u-similar-container u-container-layout-1"><span class="u-align-center u-file-icon u-icon u-text-custom-color-3 u-icon-1"><img src="images/4391389-81853a71.png" alt=""></span>
+              <div class="u-container-layout u-similar-container u-container-layout-1"><span class="u-align-center u-file-icon u-icon u-text-custom-color-3 u-icon-1"><img src="images/4391389-81853a71.png" alt="" class="spinning-image"></span>
                 <h4 class="u-align-center u-text u-text-default u-text-1">Financial Advisory</h4>
                 <p class="u-align-center u-text u-text-default u-text-2">Enhance profitability through our financial planning, cost optimization and pricing strategies</p>
               </div>
@@ -536,7 +660,7 @@ borders: top right bottom left !important
     
     
     
-    <footer class="u-align-center u-black u-clearfix u-container-align-center u-container-align-center-lg u-container-align-center-md u-container-align-center-xl u-footer u-footer" id="sec-5d3a"><div class="u-clearfix u-sheet u-sheet-1">
+    <footer id="footer" class="u-align-center u-black u-clearfix u-container-align-center u-container-align-center-lg u-container-align-center-md u-container-align-center-xl u-footer u-footer" id="sec-5d3a"><div class="u-clearfix u-sheet u-sheet-1">
         <div class="u-border-3 u-border-grey-25 u-expanded-width-xs u-hidden-lg u-hidden-md u-hidden-xl u-line u-line-horizontal u-line-1"></div>
         <img class="u-image u-image-contain u-image-default u-preserve-proportions u-image-1" src="images/qalamlogonew.png" alt="" data-image-width="983" data-image-height="983">
         <div class="u-social-icons u-spacing-10 u-social-icons-1">
@@ -569,5 +693,88 @@ borders: top right bottom left !important
         </p>
         <div class="u-border-3 u-border-grey-25 u-expanded-width-xs u-line u-line-horizontal u-line-2"></div>
       </div></footer>
+
+<!-- Scroll to Top Button -->
+<button id="scrollToTopButton" aria-label="Scroll to Top">
+  <svg id="progressCircle" width="50" height="50">
+    <circle cx="25" cy="25" r="20" stroke="#none" stroke-width="2" fill="none"></circle>
+    <circle id="progressIndicator" cx="25" cy="25" r="20" stroke="#808080" stroke-width="2" fill="none"
+            stroke-dasharray="126" stroke-dashoffset="126" transform="rotate(-90,25,25)"></circle>
+    <!-- Up Arrow -->
+    <polyline points="25,35 25,15" style="fill:none;stroke:#808080;stroke-width:2"></polyline>
+    <polyline points="20,20 25,15 30,20" style="fill:none;stroke:#808080;stroke-width:2"></polyline>
+  </svg>
+</button>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const scrollToTopButton = document.getElementById('scrollToTopButton');
+  const progressIndicator = document.getElementById('progressIndicator');
+  const radius = 20;
+  const circumference = 2 * Math.PI * radius;
+
+  // Initialize the circle
+  progressIndicator.style.strokeDasharray = `${circumference} ${circumference}`;
+  setProgress(0);
+
+  // Function to set the progress
+  function setProgress(percent) {
+    const offset = circumference - (percent / 100) * circumference;
+    progressIndicator.style.strokeDashoffset = offset;
+  }
+
+  // Function to update progress on scroll
+  function updateProgress() {
+    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    const scrollPercent = (scrollTop / scrollHeight) * 100;
+
+    // Set the progress
+    setProgress(scrollPercent);
+
+    // Show or hide the button
+    if (scrollTop > 100) {
+      scrollToTopButton.classList.remove('hidden');
+    } else {
+      scrollToTopButton.classList.add('hidden');
+    }
+  }
+
+  // Function to scroll to top
+  function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  // Intersection Observer to detect overlap with footer
+  const footer = document.getElementById('footer');
+
+  const observerOptions = {
+    root: null, // viewport
+    rootMargin: '0px',
+    threshold: 0 // trigger when any part of the footer overlaps
+  };
+
+  const observer = new IntersectionObserver(function(entries, observer) {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        // When the button overlaps the footer
+        scrollToTopButton.classList.add('overlap');
+      } else {
+        // When the button is not overlapping the footer
+        scrollToTopButton.classList.remove('overlap');
+      }
+    });
+  }, observerOptions);
+
+  observer.observe(footer);
+
+  // Add event listeners
+  window.addEventListener('scroll', updateProgress);
+  scrollToTopButton.addEventListener('click', scrollToTop);
+
+  // Initially hide the butto
+  scrollToTopButton.classList.add('hidden');
+});
+</script>
   
 </body></html>
