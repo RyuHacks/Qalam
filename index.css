@@ -1,6 +1,6 @@
  .u-section-1 {
   background-image: url("images/contactusbackground.jpg");
-  background-position: 50% 50%;
+  background-size: cover;
 }
 
 .u-section-1 .u-sheet-1 {
@@ -33,6 +33,10 @@
 }
 
 @media (max-width: 1199px) {
+   .u-section-1 {
+    background-position: 50% 50%;
+  }
+
   .u-section-1 .u-sheet-1 {
     min-height: 410px;
   }
@@ -66,10 +70,6 @@
 }
 
 @media (max-width: 767px) {
-   .u-section-1 {
-    background-position: 50% 50%;
-  }
-
   .u-section-1 .u-sheet-1 {
     min-height: 477px;
   }
@@ -273,7 +273,7 @@
     font-size: 1rem;
   }
 }.u-section-4 .u-sheet-1 {
-  min-height: 512px;
+  min-height: 612px;
 }
 
 .u-section-4 .u-text-1 {
@@ -293,7 +293,7 @@
     font-size: 1.5rem;
   }
 }.u-section-5 .u-sheet-1 {
-  min-height: 362px;
+  min-height: 612px;
 }
 
 .u-section-5 .u-text-1 {
@@ -303,14 +303,14 @@
 }
 
 @media (max-width: 767px) {
-  .u-section-5 .u-text-1 {
-    font-size: 1.875rem;
+  .u-section-5 .u-sheet-1 {
+    min-height: 198px;
   }
 }
 
 @media (max-width: 575px) {
   .u-section-5 .u-text-1 {
-    font-size: 1.9rem;
+    font-size: 1.5rem;
   }
 } .u-section-6 {
   background-image: none;
